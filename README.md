@@ -7,27 +7,27 @@ Sqlite3 database. Tested on ruby 1.9.2.
 Instructions
 ------------
 
-1. Download and the ASCII version of the SR23 database from the [Nutrient Data
+1. Download and the ASCII version of the SR26 database from the [Nutrient Data
 Laboratory Home Page][ndl]. There is a 7.6 Mb ZIP file containing the entire
 database.
 
 2. Extract the database into this project's top-level directory. It will
-create a subdirectory called 'sr23' and should look like:
+create a subdirectory called 'sr26' and should look like:
 
-        sr23/Data_src.pdf
-        sr23/DATA_SRC.txt
-        sr23/DATSRCLN.txt
-        sr23/DERIV_CD.txt
-        sr23/FD_GROUP.txt
-        sr23/FOOD_DES.txt
-        sr23/FOOTNOTE.txt
-        sr23/LANGDESC.txt
-        sr23/LANGUAL.txt
-        sr23/NUT_DATA.txt
-        sr23/NUTR_DEF.txt
-        sr23/sr23_doc.pdf
-        sr23/SRC_CD.txt
-        sr23/WEIGHT.txt
+        sr26/Data_src.pdf
+        sr26/DATA_SRC.txt
+        sr26/DATSRCLN.txt
+        sr26/DERIV_CD.txt
+        sr26/FD_GROUP.txt
+        sr26/FOOD_DES.txt
+        sr26/FOOTNOTE.txt
+        sr26/LANGDESC.txt
+        sr26/LANGUAL.txt
+        sr26/NUT_DATA.txt
+        sr26/NUTR_DEF.txt
+        sr26/sr26_doc.pdf
+        sr26/SRC_CD.txt
+        sr26/WEIGHT.txt
 
 3. Requires [bundler][bundler]. Run `bundle install` to install required gems
 if needed.

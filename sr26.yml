@@ -48,7 +48,8 @@
   - DF integer
   - Low_EB decimal(10, 3)
   - Up_EB decimal(10, 3)
-  - Stat_cmd varchar(10)
+  - Stat_cmt varchar(10)
+  - AddMod_Date varchar(10)
   - CC varchar(1)
 
 - :name: NUTR_DEF

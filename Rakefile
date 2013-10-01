@@ -3,8 +3,8 @@ require 'rake/clean'
 require 'rake/testtask'
 require_relative 'lib/loader'
 
-ENV["NDB_DATA"]   ||= "sr23"
-ENV["NDB_TABLES"] ||= "sr23.yml"
+ENV["NDB_DATA"]   ||= "sr26"
+ENV["NDB_TABLES"] ||= "sr26.yml"
 ENV["NDB_DB"]     ||= "ndb.sqlite3"
 
 CLOBBER.include(ENV["NDB_DB"])

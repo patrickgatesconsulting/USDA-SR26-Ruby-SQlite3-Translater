@@ -74,7 +74,7 @@ private
     statement = @db.prepare(sql)
     count = 0
     source = File.join(@data, "#{file}.txt")
-    File.open(source, 'r') do |file|
+    File.open(source, 'r:iso-8859-1') do |file|
       @db.transaction
       while line = file.gets
         data_array = process_line(line)
